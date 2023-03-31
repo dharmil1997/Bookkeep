@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F12681A22AEB3CC00D0D98A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F12681922AEB3CB00D0D98A /* String+Extension.swift */; };
+		4F248C5722A5418C0020C011 /* InvoiceAddEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F248C5622A5418C0020C011 /* InvoiceAddEditView.swift */; };
+		4F4F66B222955B2C003B3726 /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4F66AF229554AE003B3726 /* Identifiers.swift */; };
+		4F4F66B422955C42003B3726 /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4F66B322955C42003B3726 /* Identifiers.swift */; };
+		4F4F66B6229561A7003B3726 /* InvoicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4F66B5229561A7003B3726 /* InvoicesViewController.swift */; };
+		4F65BC67229E99520044F1D8 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65BC66229E99520044F1D8 /* CoreDataStack.swift */; };
+		4F65BC69229EA00C0044F1D8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65BC68229EA00C0044F1D8 /* BaseViewController.swift */; };
+		4F65BC6B229EA5860044F1D8 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65BC6A229EA5860044F1D8 /* UIViewController+Extension.swift */; };
+		4F65BC6D229EA6600044F1D8 /* InvoicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65BC6C229EA6600044F1D8 /* InvoicesTableViewCell.swift */; };
+		4F65BC6F229EAC1B0044F1D8 /* StandardUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65BC6E229EAC1B0044F1D8 /* StandardUILabel.swift */; };
+		4FC7F02022A7E6DC0022A9D0 /* StaticTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC7F01F22A7E6DC0022A9D0 /* StaticTexts.swift */; };
+		4FD1293B22941D1A0039624D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD1293A22941D1A0039624D /* AppDelegate.swift */; };
+		4FD1293D22941D1A0039624D /* CompaniesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD1293C22941D1A0039624D /* CompaniesViewController.swift */; };
+		4FD1294322941D1A0039624D /* Bookkeeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FD1294122941D1A0039624D /* Bookkeeper.xcdatamodeld */; };
+		4FD1294522941D1D0039624D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD1294422941D1D0039624D /* Assets.xcassets */; };
+		4FD1294822941D1D0039624D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD1294622941D1D0039624D /* LaunchScreen.storyboard */; };
+		4FD1295322941D1D0039624D /* BookkeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD1295222941D1D0039624D /* BookkeeperTests.swift */; };
+		4FD1295E22941D1D0039624D /* BookkeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD1295D22941D1D0039624D /* BookkeeperUITests.swift */; };
+		4FD1296D22941EB20039624D /* LogoImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD1296C22941EB20039624D /* LogoImageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FD1294F22941D1D0039624D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FD1292F22941D1A0039624D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FD1293622941D1A0039624D;
+			remoteInfo = Bookkeeper;
+		};
+		4FD1295A22941D1D0039624D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FD1292F22941D1A0039624D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FD1293622941D1A0039624D;
+			remoteInfo = Bookkeeper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F12681922AEB3CB00D0D98A /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		4F248C5622A5418C0020C011 /* InvoiceAddEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceAddEditView.swift; sourceTree = "<group>"; };
+		4F4F66AF229554AE003B3726 /* Identifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiers.swift; sourceTree = "<group>"; };
+		4F4F66B322955C42003B3726 /* Identifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiers.swift; sourceTree = "<group>"; };
+		4F4F66B5229561A7003B3726 /* InvoicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoicesViewController.swift; sourceTree = "<group>"; };
+		4F65BC66229E99520044F1D8 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		4F65BC68229EA00C0044F1D8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4F65BC6A229EA5860044F1D8 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		4F65BC6C229EA6600044F1D8 /* InvoicesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoicesTableViewCell.swift; sourceTree = "<group>"; };
+		4F65BC6E229EAC1B0044F1D8 /* StandardUILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardUILabel.swift; sourceTree = "<group>"; };
+		4FC7F01F22A7E6DC0022A9D0 /* StaticTexts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTexts.swift; sourceTree = "<group>"; };
+		4FD1293722941D1A0039624D /* Bookkeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookkeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD1293A22941D1A0039624D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FD1293C22941D1A0039624D /* CompaniesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesViewController.swift; sourceTree = "<group>"; };
+		4FD1294222941D1A0039624D /* Bookkeeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookkeeper.xcdatamodel; sourceTree = "<group>"; };
+		4FD1294422941D1D0039624D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FD1294722941D1D0039624D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FD1294922941D1D0039624D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD1294E22941D1D0039624D /* BookkeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookkeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD1295222941D1D0039624D /* BookkeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookkeeperTests.swift; sourceTree = "<group>"; };
+		4FD1295422941D1D0039624D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD1295922941D1D0039624D /* BookkeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookkeeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD1295D22941D1D0039624D /* BookkeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookkeeperUITests.swift; sourceTree = "<group>"; };
+		4FD1295F22941D1D0039624D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD1296C22941EB20039624D /* LogoImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoImageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FD1293422941D1A0039624D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD1294B22941D1D0039624D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD1295622941D1D0039624D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FD1292E22941D1A0039624D = {
+			isa = PBXGroup;
+			children = (
+				4FD1293922941D1A0039624D /* Bookkeeper */,
+				4FD1295122941D1D0039624D /* BookkeeperTests */,
+				4FD1295C22941D1D0039624D /* BookkeeperUITests */,
+				4FD1293822941D1A0039624D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FD1293822941D1A0039624D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FD1293722941D1A0039624D /* Bookkeeper.app */,
+				4FD1294E22941D1D0039624D /* BookkeeperTests.xctest */,
+				4FD1295922941D1D0039624D /* BookkeeperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FD1293922941D1A0039624D /* Bookkeeper */ = {
+			isa = PBXGroup;
+			children = (
+				4FD1293C22941D1A0039624D /* CompaniesViewController.swift */,
+				4F4F66B5229561A7003B3726 /* InvoicesViewController.swift */,
+				4F65BC68229EA00C0044F1D8 /* BaseViewController.swift */,
+				4F65BC66229E99520044F1D8 /* CoreDataStack.swift */,
+				4FD1294122941D1A0039624D /* Bookkeeper.xcdatamodeld */,
+				4F4F66AF229554AE003B3726 /* Identifiers.swift */,
+				4FC7F01F22A7E6DC0022A9D0 /* StaticTexts.swift */,
+				4FD1296B22941D4A0039624D /* SupportingFiles */,
+			);
+			path = Bookkeeper;
+			sourceTree = "<group>";
+		};
+		4FD1295122941D1D0039624D /* BookkeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FD1295222941D1D0039624D /* BookkeeperTests.swift */,
+				4FD1295422941D1D0039624D /* Info.plist */,
+			);
+			path = BookkeeperTests;
+			sourceTree = "<group>";
+		};
+		4FD1295C22941D1D0039624D /* BookkeeperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F4F66B322955C42003B3726 /* Identifiers.swift */,
+				4FD1295D22941D1D0039624D /* BookkeeperUITests.swift */,
+				4FD1295F22941D1D0039624D /* Info.plist */,
+			);
+			path = BookkeeperUITests;
+			sourceTree = "<group>";
+		};
+		4FD1296B22941D4A0039624D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4FD1293A22941D1A0039624D /* AppDelegate.swift */,
+				4F65BC6E229EAC1B0044F1D8 /* StandardUILabel.swift */,
+				4F65BC6C229EA6600044F1D8 /* InvoicesTableViewCell.swift */,
+				4F248C5622A5418C0020C011 /* InvoiceAddEditView.swift */,
+				4FD1294422941D1D0039624D /* Assets.xcassets */,
+				4FD1294622941D1D0039624D /* LaunchScreen.storyboard */,
+				4FD1294922941D1D0039624D /* Info.plist */,
+				4FD1296C22941EB20039624D /* LogoImageView.swift */,
+				4F65BC6A229EA5860044F1D8 /* UIViewController+Extension.swift */,
+				4F12681922AEB3CB00D0D98A /* String+Extension.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FD1293622941D1A0039624D /* Bookkeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD1296222941D1D0039624D /* Build configuration list for PBXNativeTarget "Bookkeeper" */;
+			buildPhases = (
+				4FD1293322941D1A0039624D /* Sources */,
+				4FD1293422941D1A0039624D /* Frameworks */,
+				4FD1293522941D1A0039624D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bookkeeper;
+			productName = Bookkeeper;
+			productReference = 4FD1293722941D1A0039624D /* Bookkeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FD1294D22941D1D0039624D /* BookkeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD1296522941D1D0039624D /* Build configuration list for PBXNativeTarget "BookkeeperTests" */;
+			buildPhases = (
+				4FD1294A22941D1D0039624D /* Sources */,
+				4FD1294B22941D1D0039624D /* Frameworks */,
+				4FD1294C22941D1D0039624D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FD1295022941D1D0039624D /* PBXTargetDependency */,
+			);
+			name = BookkeeperTests;
+			productName = BookkeeperTests;
+			productReference = 4FD1294E22941D1D0039624D /* BookkeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FD1295822941D1D0039624D /* BookkeeperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD1296822941D1D0039624D /* Build configuration list for PBXNativeTarget "BookkeeperUITests" */;
+			buildPhases = (
+				4FD1295522941D1D0039624D /* Sources */,
+				4FD1295622941D1D0039624D /* Frameworks */,
+				4FD1295722941D1D0039624D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FD1295B22941D1D0039624D /* PBXTargetDependency */,
+			);
+			name = BookkeeperUITests;
+			productName = BookkeeperUITests;
+			productReference = 4FD1295922941D1D0039624D /* BookkeeperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FD1292F22941D1A0039624D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1310;
+				ORGANIZATIONNAME = "David V";
+				TargetAttributes = {
+					4FD1293622941D1A0039624D = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1310;
+					};
+					4FD1294D22941D1D0039624D = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1310;
+						TestTargetID = 4FD1293622941D1A0039624D;
+					};
+					4FD1295822941D1D0039624D = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1310;
+						TestTargetID = 4FD1293622941D1A0039624D;
+					};
+				};
+			};
+			buildConfigurationList = 4FD1293222941D1A0039624D /* Build configuration list for PBXProject "Bookkeeper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FD1292E22941D1A0039624D;
+			productRefGroup = 4FD1293822941D1A0039624D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FD1293622941D1A0039624D /* Bookkeeper */,
+				4FD1294D22941D1D0039624D /* BookkeeperTests */,
+				4FD1295822941D1D0039624D /* BookkeeperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FD1293522941D1A0039624D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD1294822941D1D0039624D /* LaunchScreen.storyboard in Resources */,
+				4FD1294522941D1D0039624D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD1294C22941D1D0039624D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD1295722941D1D0039624D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FD1293322941D1A0039624D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F65BC6F229EAC1B0044F1D8 /* StandardUILabel.swift in Sources */,
+				4F65BC6B229EA5860044F1D8 /* UIViewController+Extension.swift in Sources */,
+				4FC7F02022A7E6DC0022A9D0 /* StaticTexts.swift in Sources */,
+				4F248C5722A5418C0020C011 /* InvoiceAddEditView.swift in Sources */,
+				4F65BC6D229EA6600044F1D8 /* InvoicesTableViewCell.swift in Sources */,
+				4F65BC67229E99520044F1D8 /* CoreDataStack.swift in Sources */,
+				4F4F66B6229561A7003B3726 /* InvoicesViewController.swift in Sources */,
+				4FD1293D22941D1A0039624D /* CompaniesViewController.swift in Sources */,
+				4F12681A22AEB3CC00D0D98A /* String+Extension.swift in Sources */,
+				4FD1296D22941EB20039624D /* LogoImageView.swift in Sources */,
+				4FD1294322941D1A0039624D /* Bookkeeper.xcdatamodeld in Sources */,
+				4F65BC69229EA00C0044F1D8 /* BaseViewController.swift in Sources */,
+				4F4F66B222955B2C003B3726 /* Identifiers.swift in Sources */,
+				4FD1293B22941D1A0039624D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD1294A22941D1D0039624D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD1295322941D1D0039624D /* BookkeeperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD1295522941D1D0039624D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4F66B422955C42003B3726 /* Identifiers.swift in Sources */,
+				4FD1295E22941D1D0039624D /* BookkeeperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FD1295022941D1D0039624D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FD1293622941D1A0039624D /* Bookkeeper */;
+			targetProxy = 4FD1294F22941D1D0039624D /* PBXContainerItemProxy */;
+		};
+		4FD1295B22941D1D0039624D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FD1293622941D1A0039624D /* Bookkeeper */;
+			targetProxy = 4FD1295A22941D1D0039624D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FD1294622941D1D0039624D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD1294722941D1D0039624D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FD1296022941D1D0039624D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		4FD1296122941D1D0039624D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FD1296322941D1D0039624D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GDWE93PAP;
+				INFOPLIST_FILE = "$(SRCROOT)/Bookkeeper/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidv.Bookkeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FD1296422941D1D0039624D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GDWE93PAP;
+				INFOPLIST_FILE = "$(SRCROOT)/Bookkeeper/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidv.Bookkeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FD1296622941D1D0039624D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GDWE93PAP;
+				INFOPLIST_FILE = BookkeeperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidv.BookkeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bookkeeper.app/Bookkeeper";
+			};
+			name = Debug;
+		};
+		4FD1296722941D1D0039624D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GDWE93PAP;
+				INFOPLIST_FILE = BookkeeperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidv.BookkeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bookkeeper.app/Bookkeeper";
+			};
+			name = Release;
+		};
+		4FD1296922941D1D0039624D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GDWE93PAP;
+				INFOPLIST_FILE = BookkeeperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidv.BookkeeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bookkeeper;
+			};
+			name = Debug;
+		};
+		4FD1296A22941D1D0039624D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GDWE93PAP;
+				INFOPLIST_FILE = BookkeeperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidv.BookkeeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bookkeeper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FD1293222941D1A0039624D /* Build configuration list for PBXProject "Bookkeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD1296022941D1D0039624D /* Debug */,
+				4FD1296122941D1D0039624D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD1296222941D1D0039624D /* Build configuration list for PBXNativeTarget "Bookkeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD1296322941D1D0039624D /* Debug */,
+				4FD1296422941D1D0039624D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD1296522941D1D0039624D /* Build configuration list for PBXNativeTarget "BookkeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD1296622941D1D0039624D /* Debug */,
+				4FD1296722941D1D0039624D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD1296822941D1D0039624D /* Build configuration list for PBXNativeTarget "BookkeeperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD1296922941D1D0039624D /* Debug */,
+				4FD1296A22941D1D0039624D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4FD1294122941D1A0039624D /* Bookkeeper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4FD1294222941D1A0039624D /* Bookkeeper.xcdatamodel */,
+			);
+			currentVersion = 4FD1294222941D1A0039624D /* Bookkeeper.xcdatamodel */;
+			path = Bookkeeper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4FD1292F22941D1A0039624D /* Project object */;
+}
